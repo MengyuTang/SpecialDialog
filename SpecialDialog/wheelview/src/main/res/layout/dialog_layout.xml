@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/shape_retancege_gold"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/ic_selete_time_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/v_line1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+            <com.special.wheelview.widget.WheelView
+                android:id="@+id/wv_wheelview"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@color/color_F5EEDC"/>
+            <TextView
+                android:text="年"
+                android:textColor="@color/color_895D13"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.special.wheelview.widget.WheelView
+                android:id="@+id/wv_wheelview_left"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@color/color_F5EEDC"/>
+            <TextView
+                android:text="月"
+                android:textColor="@color/color_895D13"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.special.wheelview.widget.WheelView
+                android:id="@+id/wv_wheelview_right"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@color/color_F5EEDC"/>
+            <TextView
+                android:id="@+id/tv_day_title"
+                android:text="日"
+                android:textColor="@color/color_895D13"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/v_line2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_button_cancle"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_button_bg"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:layout_marginRight="25dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:id="@+id/btn_button_ok"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@drawable/ic_button_bg"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
