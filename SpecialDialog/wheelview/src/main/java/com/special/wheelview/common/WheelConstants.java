@@ -99,7 +99,7 @@ public class WheelConstants {
     /**
      * 滚轮默认文本大小
      */
-    public static final int WHEEL_TEXT_SIZE = 16;
+    public static final int WHEEL_TEXT_SIZE = 14;
 
     /**
      * 滚轮默认文本透明度

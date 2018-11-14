@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setCancleButtonText("清空")
                 .setDialogStyle(Color.parseColor("#895D13"))
                 .setCount(3)
-                .showDays(false)
+                .showDays(true)
                 .setSelection("2018-10")
                 .show();
 
